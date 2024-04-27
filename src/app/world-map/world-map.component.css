@@ -1,0 +1,44 @@
+main {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 5%;
+    max-width: 100%;
+}
+
+header {
+    width: 100%;
+    padding: 1px;
+    padding-left: 5vw;
+    background-color: lightsteelblue;
+}
+
+.map-section {
+    min-width: 70%;
+}
+
+.country-properties {
+    text-align: center;
+    background-color: lightsteelblue;
+    width: 24%;
+    border-radius: 25px;
+}
+
+.style-div {
+    padding: 1.5vw;
+}
+
+path:hover {
+    fill: steelblue;
+    stroke: red;
+}
+
+ul {  
+  text-align: left;
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
